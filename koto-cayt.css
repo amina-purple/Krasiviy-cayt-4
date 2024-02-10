@@ -1,0 +1,164 @@
+body {
+  font-family: 'Jost', sans-serif;
+}
+footer {
+  background-color: rgb(219, 233, 245);
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+header {
+  background-color: rgb(109, 190, 109);
+}
+
+.element1 {
+  text-align: left;
+  display: inline-block;
+}
+.element2 {
+  justify-content: end;
+  display: flex;
+}
+.block {
+  width: auto;
+  margin-left: 10px;
+  padding-bottom: 30px;
+}
+.img {
+  margin: auto;
+  display: block;
+}
+.block1 {
+  background-color: rgb(106, 189, 106);
+}
+.block1-inner {
+  position: relative;
+  padding: 150px 0px;
+}
+
+.p {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.h3 {
+  text-align: center;
+  color: rgb(5, 17, 26);
+  padding-top: 30px;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.block2 {
+  background-color: #ffd89c;
+}
+
+.block3 {
+  display: flex;
+  justify-content: space-around;
+}
+.s_img {
+  width: 600px;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+.block4 {
+  background-color: #062d3e;
+  position: relative;
+}
+.ok {
+  color: rgb(255, 255, 255);
+}
+.big {
+  font-size: 60px;
+  width: 500px;
+  margin-bottom: 50px;
+}
+.cat {
+  text-align: left;
+  width: 400px;
+}
+.block5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+  gap: 50px;
+}
+.text {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.l-img {
+  position: absolute;
+  bottom: 0;
+  left: 150px;
+}
+.image p {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.feedback-button {
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+.l-img2 {
+  position: absolute;
+  top: -6px;
+  right: 60px;
+}
+.feedback {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.block6 {
+  text-align: center;
+}
+@media all and (max-width: 1200px) {
+  .l-img {
+    display: none;
+  }
+  .l-img2 {
+    display: none;
+  }
+}
+@media all and (max-width: 1009px) {
+  .s_img {
+    display: none;
+  }
+  .block1-inner {
+    text-align: center;
+  }
+  .big {
+    width: auto;
+  }
+}
+@media all and (max-width: 1140px) {
+  .uno {
+    width: 200px;
+  }
+}
+@media all and (max-width: 730px) {
+  .block3 {
+    flex-direction: column;
+  }
+  .block5 {
+    flex-direction: column;
+  }
+  .element-text {
+    text-align: center;
+  }
+  .text-cat {
+    text-align: center;
+  }
+}
